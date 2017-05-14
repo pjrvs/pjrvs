@@ -1,0 +1,166 @@
+/*
+Theme Name: Co1
+Version: 1.0
+License: Paul Jarvis only. SERIOUSLY.
+
+
+black					#2c2d2e	
+grey						#95999a / #5b5c5e
+light text			#a2a7a8	
+light					#d1d8da
+lightest				#edeff0
+
+blue						#147ef2 / #116ed3
+purple					#7156e5 / #634bc8
+pink						#f9415d / #d93951
+yellow					#ffbb04 / #dea303 / #fff5da
+teal						#00cca5 / #2cc1a3 / #b7f3e7
+
+12px spacer: 48, 108, 168, 228, 288, 348, 408, 468, 528, 588, 648, 708, 768, 828, 888, 948, 1008, 1068, 1128, 1188, 1248, 1308, 1368
+
+font sizes 	112 56 45 34 24 20 18 16 14 12
+font faces: "calluna" 300, 900
+
+*/
+
+
+/* reset, yo */
+* {outline:none;padding:0;margin:0;border:0;border-radius:0;-webkit-appearance: none}a,hr{padding:0}a,button,input,select,textarea{margin:0}article,aside,details,figure,footer,header,hr,main,nav,section,summary{display:block}abbr,address,article,aside,audio,b,blockquote,body,body div,caption,cite,code,dd,del,details,dfn,dl,dt,em,fieldset,figure,footer,form,h1,h2,h3,h4,h5,h6,header,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline;background:0 0}input[type=checkbox],th{vertical-align:bottom}html{box-sizing:border-box;overflow-y:scroll}*,:after,:before{box-sizing:inherit}embed,img,object{max-width:100%}ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}a{font-size:100%;vertical-align:baseline;background:0 0}del{text-decoration:line-through}abbr[title],dfn[title]{}td{vertical-align:top}hr{height:1px;border:0;border-top:1px solid #ccc;margin:1em 0}input,select{vertical-align:middle}pre{white-space:pre;white-space:pre-wrap;white-space:pre-line;word-wrap:break-word}.ie7 input[type=checkbox]{vertical-align:baseline}.ie6 input{vertical-align:text-bottom}table{border-collapse:separate;border-spacing:0;font:100%}strong{}td,td img{vertical-align:top}sub,sup{font-size:75%;line-height:0;position:relative}sup{top:-.5em}sub{bottom:-.25em}code,kbd,pre,samp{font-family:monospace,sans-serif}.clickable,button,input[type=button],input[type=file],input[type=submit],label{cursor:pointer}button,input[type=button]{width:auto;overflow:visible}.ie7 img{-ms-interpolation-mode:bicubic}fieldset,.row,.clearfix:after{content:" ";display:block;clear:both}
+
+
+
+
+
+
+
+
+
+
+
+/* = html5 ----------------------- */
+
+::-moz-selection { background: #d1d8da; text-shadow: none; }
+::selection { background: #d1d8da; text-shadow: none; }
+
+::-webkit-input-placeholder { color: #b7bdbf; }
+::-moz-placeholder { color: #b7bdbf; } 
+:-ms-input-placeholder { color: #b7bdbf; }
+input:-webkit-autofill, select:-webkit-autofill { -webkit-box-shadow: 0 0 0px 1000px #fff inset; }
+
+.wf-loading * { visibility: hidden; }
+
+
+
+
+
+
+
+
+
+
+/* = structure ------------------- */
+
+html, body { min-height: 100%; height: 100%; font: 300 24px/1.4 "calluna", sans-serif; color: #5b5c5e; background: #fff; text-align: center; }
+
+	.section { margin: 0 auto; padding: 12px; text-align: left; position: relative; overflow: hidden; max-width: 588px; }
+
+
+
+
+
+
+
+
+/* = structure ------------------- */
+
+
+
+
+/* = typography ------------------ */
+
+h1, h2, h3, h4 { line-height: 1.2; font-size: 56px; color: #2c2d2e; margin-bottom: 24px; }
+
+p, ul, small { }
+	ul { }
+	ul li { }
+
+a { text-decoration: none; transition: linear color .3s;}
+
+	
+strong, b { }
+em, i { }
+
+
+
+
+
+
+
+
+
+/* = forms ---------------------- */
+
+form { margin: 24px 0; }
+
+input, button { box-sizing: border-box; font: 300 24px/1 "calluna", sans-serif; color: #5b5c5e; padding: 8px; display: block; margin: 0 0 4px 0; width: 100%; border-radius: 2px; vertical-align: middle; }
+input { background: #edeff0; }
+button { background: #00cca5; color: #fff; font-weight: 900; padding: 10px 24px; }
+
+
+
+
+
+
+
+
+
+
+
+/* = queries ---------------------- */
+
+
+@media (max-width: 708px) {
+
+}
+
+
+
+
+
+
+
+@media (min-width: 688px) {
+	.section { margin: 80px auto; }
+	input, button { display: inline-block; margin: 0 4px 0 0; width: auto; }
+	input { width: 348px; }
+}
+
+
+
+
+
+
+
+@media (min-width: 1308px) {
+
+}
+
+
+
+
+
+
+
+@media (min-width: 1608px) {
+
+}
+
+
+
+
+
+
+
+@media (min-width: 1908px) {
+
+}
